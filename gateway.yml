@@ -1,0 +1,9 @@
+server:
+  port: 8080
+      
+zuul:
+  routes:
+    movie: /movie/**
+    actor: /actor/**
+    genre: /genre/**
+    role: /role/**
